@@ -29,7 +29,7 @@ const Banner = ({
         {desc1} <br /> {desc2}
       </Text>
       <Button fontSize="xl">
-        <Link href="">
+        <Link href={"linkName"}>
           <a>{buttonText}</a>
         </Link>
       </Button>
@@ -37,7 +37,7 @@ const Banner = ({
   </Flex>
 );
 export default function Home({ propertiesForRent, propertiesForSale }) {
-  console.log(propertiesForRent, propertiesForSale);
+  // console.log(propertiesForRent, propertiesForSale);
   return (
     <Box>
       <Banner
@@ -47,7 +47,7 @@ export default function Home({ propertiesForRent, propertiesForSale }) {
         desc1="Explore Apartments,Rooms, Houses "
         desc2="and More "
         buttonText="Explore Houses for Rent"
-        linkName="/search?purpose=for-rent"
+        linkName="/Search?purpose=for-rent"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
       />
       <Banner />
@@ -63,8 +63,8 @@ export default function Home({ propertiesForRent, propertiesForSale }) {
         desc1="Explore Apartments,Rooms, Houses "
         desc2="and More "
         buttonText="Explore Houses for Sale"
-        linkName="/search?purpose=for-sale"
-        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
+        linkName="/Search?purpose=for-sale"
+        imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
       />
       <Banner />
       <Flex flexWrap="wrap">
