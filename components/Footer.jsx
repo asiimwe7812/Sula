@@ -7,7 +7,7 @@ const Footer = () => (
     borderTop="1px"
     borderColor="gray.200"
   >
-    2022 Ivac Inc All Rights Reserved
+    2022 Ivac Technologies Inc All Rights Reserved
   </Box>
 );
 export default Footer;
