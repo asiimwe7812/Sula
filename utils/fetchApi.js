@@ -11,3 +11,4 @@ export const fetchApi = async (url) => {
   });
   return data;
 };
+// This code is to connect to the bayut Api 💇
